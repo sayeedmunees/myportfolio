@@ -17,12 +17,9 @@
 
     <!-- fonts -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
     <!-- fontawesome -->
     <link
@@ -34,102 +31,106 @@
     />
   </head>
   <body>
-    <header id="home">
-      <nav class="nav-bar">
-        <div class="nav-logo">
-          <img src="./assets/logo.png" alt="logo image" />
+    <div class="container">
+      <section id="home">
+        <nav class="nav-bar">
+          <div class="nav-logo">
+            <img src="./assets/logo.png" alt="logo image" />
+          </div>
+          <ul class="nav-links">
+            <li><a href="" id="link-1"><span class="nav-link-no">01</span> <br> About me</a></li>
+            <li><a href="" id="link-2"><span class="nav-link-no">02</span> <br> Projects</a></li>
+            <li><a href="" id="link-3"><span class="nav-link-no">03</span> <br> Certificates</a></li>
+            <li><a href="" d="link-3"> <span class="nav-link-no">04</span> <br> Contact me</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <hr>
+  
+      <section id="profile">
+        <div id="profile-text">
+          <h4>Hello! I'm</h4>
+          <h1>Sayeed Munees</h1>
+          <p>A Front-End Developer</p>
+          <ul id="profile-links">
+            <li><a href="">Show Projects</a></li>
+            <li><a href="">Resume</a></li>
+          </ul>
         </div>
-        <ul class="nav-links">
-          <li><a href="">About me</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Certificates</a></li>
-          <li><a href="">Contact me</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <section id="profile">
-      <div class="section-text">
-        <p>Hello! I'm</p>
-        <h1>Sayeed Munees</h1>
-        <p>A Front-End Developer</p>
-        <ul id="profile-links">
-          <li><a href="">Show Projects</a></li>
-          <li><a href="">Resume</a></li>
-        </ul>
-      </div>
-      
-    </section>
-
-    <section id="about-me">
-      <div class="page-name">
-        <h4>About me</h4>
-      </div>
-      <div class="about-me-text">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque perferendis minus vitae enim nesciunt laboriosam explicabo, sint obcaecati sed, magnam iusto blanditiis! Rerum repudiandae quas consectetur, dolor deserunt corrupti veritatis.</p>
-      </div>
-      <div id="about-me-image">
-        <img src="" alt="">
-      </div>
-    </section>
-
-    <section id="projects">
+        
+      </section>
+  
+      <!-- <section id="about-me">
         <div class="page-name">
-            <h4>Projects</h4>
+          <h4>About me</h4>
         </div>
-        <div id="projects-cards-container">
-            <div class="project-card">
-                <img src="./assets/Blog-Preview.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-            </div>
-            <div class="project-card">
-                <img src="./assets/Huddle.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-            </div>
-            <div class="project-card">
-                <img src="./assets/Testimonial.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-            </div>
-            <div class="project-card" id="project-show-more">
-                <a href="">Show more+</a>
-            </div>
+        <div class="about-me-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque perferendis minus vitae enim nesciunt laboriosam explicabo, sint obcaecati sed, magnam iusto blanditiis! Rerum repudiandae quas consectetur, dolor deserunt corrupti veritatis.</p>
         </div>
-    </section>
-
-    <section id="certificates">
-        <div class="page-name">
-            <h4>Certificates</h4>
+        <div id="about-me-image">
+          <img src="" alt="">
         </div>
-        <div id="certificates-cards-container">
-            <div class="certificate-card">
-                <img src="./assets/Blog-Preview.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-            </div>
-            <div class="certificate-card">
-                <img src="./assets/Huddle.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-            </div>
-            <div class="certificate-card">
-                <img src="./assets/Testimonial.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-            </div>
-            <div class="certificate-card" id="certificate-show-more">
-                <a href="">Show more+</a>
-            </div>
+      </section>
+  
+      <section id="projects">
+          <div class="page-name">
+              <h4>Projects</h4>
+          </div>
+          <div id="projects-cards-container">
+              <div class="project-card">
+                  <img src="./assets/Blog-Preview.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
+              </div>
+              <div class="project-card">
+                  <img src="./assets/Huddle.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
+              </div>
+              <div class="project-card">
+                  <img src="./assets/Testimonial.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
+              </div>
+              <div class="project-card" id="project-show-more">
+                  <a href="">Show more+</a>
+              </div>
+          </div>
+      </section>
+  
+      <section id="certificates">
+          <div class="page-name">
+              <h4>Certificates</h4>
+          </div>
+          <div id="certificates-cards-container">
+              <div class="certificate-card">
+                  <img src="./assets/Blog-Preview.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
+              </div>
+              <div class="certificate-card">
+                  <img src="./assets/Huddle.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
+              </div>
+              <div class="certificate-card">
+                  <img src="./assets/Testimonial.png" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
+              </div>
+              <div class="certificate-card" id="certificate-show-more">
+                  <a href="">Show more+</a>
+              </div>
+          </div>
+      </section>
+  
+      <section id="contact-me">
+          <div class="page-name">
+              <h4>Contact me</h4>
+          <div id="contact-icons">
+          <a href=""><img src="./assets/github.png" alt="" /></a>
+          <a href=""><img src="./assets/linkedin.png" alt="" /></a>
         </div>
-    </section>
-
-    <section id="contact-me">
-        <div class="page-name">
-            <h4>Contact me</h4>
-        <div id="contact-icons">
-        <a href=""><img src="./assets/github.png" alt="" /></a>
-        <a href=""><img src="./assets/linkedin.png" alt="" /></a>
-      </div>
-    </section>
-
-    <footer>
-      <p>Copyright &#169; 2025 Sayeed Munees. All Rights Reserved.</p>
-    </footer>
+      </section>
+  
+      <footer>
+        <p>Copyright &#169; 2025 Sayeed Munees. All Rights Reserved.</p>
+      </footer> -->
+    </div>
   </body>
 </html>

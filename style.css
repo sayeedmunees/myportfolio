@@ -27,10 +27,22 @@ section{
 
 /* NAV BAR */
 
+#home{
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(25px);
+  padding-top: px;
+  padding-bottom: -10px;
+  margin-top: -1%;
+}
+
 .nav-bar{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  height: 100px;
+  height: 75px;
   align-items: center;
   margin: 1% 2.5%;
 }
@@ -69,26 +81,23 @@ section{
 
 .nav-links a:hover{
   color: var(--teritiary-color);
-  text-decoration: underline;
-  text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
   font-size: 1.2rem;
-  transition-duration: 0.5s;
+  transition-duration: 0.25s;
 }
-
 
 hr{
   border-color: var(--border-color);
   margin: 0px -2.5%;
 }
 
-/* HOME */
+/* PROFILE */
 
 #profile{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  height: 82vh;
+  height: 90vh;
 }
 
 #profile-text{
@@ -201,7 +210,9 @@ hr{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  height: 82vh;
+  row-gap: 1%;
+  height: 100%;
+  padding-bottom: 2%;
 }
 
 #projects .page-name{
@@ -217,10 +228,12 @@ hr{
 .project-card{
   height: 200px;
   width: 100%;
+  margin-bottom: 2%;
   display: grid;
   grid-template-columns: repeat(5,1fr);
   background-color: var(--primary-color);
   overflow: hidden;
+  align-content: start;
 }
 
 .project-image{
@@ -234,6 +247,7 @@ hr{
 .project-card p{
   color: var(--secondary-color);
   grid-column: 3/6;
+  margin: 0px 5%;
 }
 
 

@@ -42,25 +42,25 @@
           </div>
           <ul class="nav-links">
             <li>
-              <a href="" id="link-1"
+              <a href="#about-me" id="link-1"
                 ><span class="nav-link-no">01</span> <br />
                 About me</a
               >
             </li>
             <li>
-              <a href="" id="link-2"
+              <a href="#projects" id="link-2"
                 ><span class="nav-link-no">02</span> <br />
                 Projects</a
               >
             </li>
             <li>
-              <a href="" id="link-3"
+              <a href="#certificates" id="link-3"
                 ><span class="nav-link-no">03</span> <br />
                 Certificates</a
               >
             </li>
             <li>
-              <a href="" d="link-3">
+              <a href="#contact-me" d="link-3">
                 <span class="nav-link-no">04</span> <br />
                 Contact me</a
               >
@@ -75,9 +75,11 @@
           <h1>Sayeed Munees</h1>
           <p>A Front-End Developer</p>
           <ul class="profile-links">
-            <li><a href="">Show Projects</a></li>
-            <li><a href="./assets/sayeedmunees-resume.pdf"  download>Resume</a></li>
-          </ul> 
+            <li><a href="#projects">Show Projects</a></li>
+            <li>
+              <a href="./assets/sayeedmunees-resume.pdf" download>Resume</a>
+            </li>
+          </ul>
         </div>
         <!-- <div id="profile-image-nobg">
             <img src="./assets/profile-image-nobg.png" alt="" />
@@ -90,16 +92,16 @@
         </div>
         <div class="about-me-text">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic unde,
-            deserunt ea maxime, <br /><br />
-            asperiores repellat corrupti obcaecati eligendi delectus, similique
-            voluptatum nemo deleniti harum cumque mollitia facilis accusamus
-            eaque laborum.
+            A passionate Front-end developer with a degree in B.Tech in
+            Electronics and Communication, with a solid foundation in HTML, CSS,
+            and JavaScript and knowledge of Python, Dart, C, and MySQL.
             <br /><br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis saepe aut sit dicta delectus placeat iure? Porro fugit
-            quam a expedita sunt eos blanditiis quisquam? Tempore minus
-            blanditiis autem? Eos.
+            Skilled in design tools like Photoshop, Adobe XD, and Figma, with a
+            keen eye for blending aesthetics and functionality. <br /><br />
+            Committed to crafting immersive user experiences and dynamic web
+            applications, eager to contribute creativity and technical expertise
+            to a forward-thinking team that values innovation in front-end
+            development
           </p>
         </div>
         <div id="about-me-image">
@@ -115,104 +117,156 @@
           <h4>Projects</h4>
         </div>
         <div id="projects-cards-container">
-          <div class="project-card" id="project-card-1">
+          <div
+            class="project-card"
+            id="project-card-1"
+            onclick="window.open('https://github.com/sayeedmunees/bunkscape-attendance')"
+          >
             <div class="project-image">
               <img src="./assets/project-1.png" alt="" />
             </div>
             <div class="project-text">
-              <h2>Heading 1</h2>
+              <h2>Bunkscape - Attendance Calculator</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                obcaecati, alias facere possimus saepe accusamus est ullam
-                debitis voluptatum repellat at deleniti eligendi nihil vero nemo
-                iure laudantium quibusdam illum.
+                Designed and developed attendance calculator that helps students
+                find out how many days they can bunk or the minimum number of
+                days they need to attend to maintain their attendance
+                percentage.
               </p>
             </div>
           </div>
-          <div class="project-card" id="project-card-2">
+          <div
+            class="project-card"
+            id="project-card-2"
+            onclick="window.open('https://github.com/sayeedmunees/mercedes-g63-project')"
+          >
             <div class="project-text">
-              <h2>Heading 1</h2>
+              <h2>Mercedes-AMG G 63 Landing Page</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                obcaecati, alias facere possimus saepe accusamus est ullam
-                debitis voluptatum repellat at deleniti eligendi nihil vero nemo
-                iure laudantium quibusdam illum.
+                Designed and developed a sleek landing page prototype for the Mercedes-AMG G 63, built using vanilla CSS with Flexbox. The design highlights the power and elegance of this iconic vehicle.
               </p>
             </div>
             <div class="project-image">
               <img src="./assets/project-2.png" alt="" />
             </div>
           </div>
-          <div class="project-card" id="project-card-3">
+          <div
+            class="project-card"
+            id="project-card-3"
+            onclick="window.open('https://github.com/sayeedmunees/electro-wired')"
+          >
             <div class="project-image">
               <img src="./assets/project-3.png" alt="" />
             </div>
 
             <div class="project-text">
-              <h2>Heading 1</h2>
+              <h2>Concept SG90 Armbot</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                obcaecati, alias facere possimus saepe accusamus est ullam
-                debitis voluptatum repellat at deleniti eligendi nihil vero nemo
-                iure laudantium quibusdam illum.
+                Designed and developed a website using HTML, CSS, JavaScript as
+                part of our academic project named Armbot. The Armbot is
+                designed for warehouse automation.
               </p>
             </div>
           </div>
 
-          <div class="project-card" id="project-show-more">
+          <div
+            class="project-card"
+            id="project-show-more"
+            onclick="window.open('https://github.com/sayeedmunees?tab=repositories')"
+          >
             <a href="">Show more +</a>
           </div>
         </div>
       </section>
 
       <section id="certificates">
-          <div class="page-name">
-              <h4>Certificates</h4>
+        <div class="page-name">
+          <h4>Certificates</h4>
+        </div>
+        <div id="certificates-cards-container">
+          <div class="certificate-card">
+            <img src="./assets/certificate-1.png" alt="" />
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              obcaecati, alias facere possimus saepe accusamus est ullam debitis
+              voluptatum repellat at deleniti eligendi nihil vero nemo iure
+              laudantium quibusdam illum.
+            </p>
           </div>
-          <div id="certificates-cards-container">
-              <div class="certificate-card">
-                  <img src="./assets/certificate-1.png" alt="">
-                  <h1>Heading</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-              </div>
-              <div class="certificate-card">
-                  <img src="./assets/certificate-1.png" alt="">
-                  <h1>Heading</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-              </div>
-              <div class="certificate-card">
-                  <img src="./assets/certificate-1.png" alt="">
-                  <h1>Heading</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-              </div>
-              <div class="certificate-card">
-                  <img src="./assets/certificate-1.png" alt="">
-                  <h1>Heading</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-              </div>
-              <div class="certificate-card">
-                  <img src="./assets/certificate-1.png" alt="">
-                  <h1>Heading</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos obcaecati, alias facere possimus saepe accusamus est ullam debitis voluptatum repellat at deleniti eligendi nihil vero nemo iure laudantium quibusdam illum.</p>
-              </div>
-              <div class="certificate-card" id="certificate-show-more">
-                  <a href="">Show more+</a>
-              </div>
+          <div class="certificate-card">
+            <img src="./assets/certificate-1.png" alt="" />
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              obcaecati, alias facere possimus saepe accusamus est ullam debitis
+              voluptatum repellat at deleniti eligendi nihil vero nemo iure
+              laudantium quibusdam illum.
+            </p>
           </div>
-      </section>
-  
-      <section id="contact-me">
-          <div class="page-name">
-              <h4>Contact me</h4>
-          <div id="contact-icons">
-          <a href=""><img src="./assets/github.png" alt="" /></a>
-          <a href=""><img src="./assets/linkedin.png" alt="" /></a>
+          <div class="certificate-card">
+            <img src="./assets/certificate-1.png" alt="" />
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              obcaecati, alias facere possimus saepe accusamus est ullam debitis
+              voluptatum repellat at deleniti eligendi nihil vero nemo iure
+              laudantium quibusdam illum.
+            </p>
+          </div>
+          <div class="certificate-card">
+            <img src="./assets/certificate-1.png" alt="" />
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              obcaecati, alias facere possimus saepe accusamus est ullam debitis
+              voluptatum repellat at deleniti eligendi nihil vero nemo iure
+              laudantium quibusdam illum.
+            </p>
+          </div>
+          <div class="certificate-card">
+            <img src="./assets/certificate-1.png" alt="" />
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              obcaecati, alias facere possimus saepe accusamus est ullam debitis
+              voluptatum repellat at deleniti eligendi nihil vero nemo iure
+              laudantium quibusdam illum.
+            </p>
+          </div>
+          <div class="certificate-card" id="certificate-show-more">
+            <a href="">Show more+</a>
+          </div>
         </div>
       </section>
-  
-      <!-- <footer>
+
+      <section id="contact-me">
+        <div class="page-name">
+          <h4>Contact me</h4>
+        </div>
+        <div class="contact-info-container">
+          <p>Mail me here</p>
+          <a href="mailto:sayeedmunees@hotmail.com">sayeedmunees@hotmail.com</a>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('https://www.linkedin.com/in/sayeedmunees')"
+            >
+              LinkedIn
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="window.open('https://github.com/sayeedmunees')"
+            >
+              GitHub
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer>
         <p>Copyright &#169; 2025 Sayeed Munees. All Rights Reserved.</p>
-      </footer> -->
+      </footer>
     </div>
   </body>
 </html>

@@ -250,6 +250,7 @@ hr{
   width: 100%;
   margin-bottom: 2%;
   background-image: url("/assets/project-bg.jpg");
+  background-color: var(--primary-color);
   background-size: 200%;
   background-position: center;
   background-repeat: no-repeat;
@@ -336,6 +337,7 @@ hr{
   height: 450px;
   border-radius: 15px;
   background-image: url("/assets/certificate-bg.jpg");
+  background-color: var(--secondary-color);
   background-size: 200%;
   background-position: center;
   background-repeat: no-repeat;

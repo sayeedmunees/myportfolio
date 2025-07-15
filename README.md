@@ -3,6 +3,9 @@
 Welcome to the repository for my personal portfolio website!  
 This site is currently **under development** and aims to showcase my work, skills, and projects in a clean and modern layout using **CSS Grid** for responsive design.
 
+Check out the live version of on the web:
+- [My Portfolio Website - Live](https://sayeedmunees.github.io/myportfolio/)
+
 ---
 
 ## 🚧 Status
